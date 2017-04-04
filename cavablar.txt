@@ -82,3 +82,26 @@ Funksional proqramlaşdırma proqramlaşdırma məntiqinin riyazi funksiyalara o
 <17>
 Klassik miraslılıqda iki tip mücərrədlik var: obyektlər və siniflər. Prototipli miraslılıqda
 isə cəmi bir tip var: obyektlər.
+
+<18>
+Obyektyönümlüdə proqramın axışını daha rahat izləmək üçün məlumatlar və onların əlaqəli hərəkəti bir yerə yığılır ki, bu yer də obyekt adlanır. Funksional proqramlaşdırma isə məlumatlar və onların davranışlarının tamamən ayrı ayrı şeylər olduğunu irəli sürür, onları ayrı ayrı yerlərdə saxlayır ki daha aydın başa düşülsün. Funksional proqramlaşdırma sürət baxımından daha əlverişlidir. Obyektyönümlüdən istifadə etmək o zaman əlverişli olar ki, eyni əməliyyatları başqa şeylər üzərində tətbiq edirik. Artan əsasən şeylərin sayı olur. Funksional proqramlaşdırmadan istifadə isə o zaman daha əlverişli olur ki, şeylər eyni olur, üzərində görüdüyümüz əməliyyatlar fərqli olur və biz kodu artıran zaman sadəcə yeni əməliyyatlar əlavə edirik. Obyektyönümlüdə yeniliklər əlavə edəndə çoxlu classları dəyişmək lazım ola bilir. Funksiyonalda isə  funksiyaları dəyişmək lazım olur.
+
+<19>
+Nadir hallarda, demək olar ki, heç bir zaman klassik inheritance uyğun seçim deyil.
+
+<20>
+Prototypal inhertince-ın bir çox növü var.
+	- Heyət (prototip zənciri)
+	- Bitişik (miksinlər, Object.assign())
+	- Funksional (Kapsullamada closurelar yaratmaq üçün funksiyalar)
+Bunlardan hər birinin öz işlənmə yeri var. Amma hər biri eyni dərəcədə önəmlidi.
+
+<21>
+Miras üzərində kompozisiya obyektyönümlü proqramlaşdırmada əsas şeylərdəndi. Bu qaydaya görə siniflər polimorfik davranışları və koddan yenidən istifadəni öz kompozisiyaları vasitəsilə ana sinifdən miraslılıqdan başqa qazanmalıdılar.
+
+<22>
+İki tərəfli bağlama - Əgər hər hansı bir modeldəki propertylər yenilənsə , user interface də yenilənmiş olur. Əgər user interface yenilənsə, bütün dəyişikliklər modeldəkinə də tətbiq olunur.
+Bir tərəfli bağlama - burda model yeganə mənbədi. user interfacedən heç bir dəyişiklik eləməy olmur. Dəyişikliklər yalnız model tərəfindən edilir. Burda məlumat sadəcə bir istiqamətli olaraq ötürülür və bu da başa düşülməni asanlaşdırır. Həm də iki tərəflinin əks təsirləri ola bilər. Bu da başa düşülməni çətinləşdirir.
+
+<23>
+
