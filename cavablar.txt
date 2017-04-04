@@ -1,0 +1,84 @@
+<1>
+Prototypal Inheritance-da Objectlər birbaşa olaraq digər objectlərdən miras götürürlər.
+
+<2>
+Closure-lar sərbəst dəyişənlərə müraciət etmək və onlardan istifadə etmək üçün olan
+funksiyalardır. Bunlar iç-içə funskiyalarda istifadə olunur.
+
+<3>
+Tam olaraq elə yazmaqla yoxlamaq olmur. Həmin yazılışda x-in qarşısına typeof yazsaq object olub
+olmadığını yoxlaya bilərik.
+
+<4>
+Əgər dəyişəni qarşısına var qoymadan təyin etsək, Javascriptdə problem filan yaşanmır. Sadəcə
+scope söhbəti var. Əgər var-sız yazsaq, avtomatik olaraq global scopeda olmuş olur. var ilə
+yazanda da global scopeda olmağını təmin etmək olar, amma gərək funksiyanın içində yazmıyasan.
+
+<5>
+Bu iki işarə arasındakı yeganə fərq, == işarəsi tiplərin bərabərliyini yoxlamır, amma ===
+işarəsi yoxlayır.
+
+<6>
+JavaScript aşağıdakı data tiplərini dəstəkləyir:
+    - Primitivlər
+        > Boolean
+        > Null
+        > Undefined
+        > Number
+        > String
+        > Symbol
+    - Object
+
+<7>
+İlk misalda cavab 123 olacaq. Çünki ilk rəqəm dırnaq içində yazıldığı üçün JS onu string kimi
+qəbul eliyəcəy. Dolayısıynan digərləri də string kimi qəbul edilmiş olacaq. İkinci misalda isə
+cavab 33 olacaq. Çünki ilk iki rəqəm dırnaqsız olduğu üçün toplanacaq, sonrakı rəqəm isə string
+olduğu üçün toplama işarəsi birləşdirmə funksiyasını yerinə yetirəcək.
+
+<8>
+Elementə bir link daxil etmək istəyirik və elementə basıldığında həmin linkə daxil olsun. Bunu
+sadəcə HTML-lə də etmək olar. Amma elementlərin sayı, linklərin sayı çox olduqda bunu HTMLlə
+eləməy əziyyətdi. Burda iş JS-in üstünə düşür. Həmin bu strukturu JS-də dövrlər vasitəsilə
+yazırıq və çox rahat şəkildə linkləri daxil edirik.
+
+<9>
+JS-də undefined onu bildirir ki, dəyişən təyin olunub, amma ona heç bir dəyər assign edilməyib.
+null isə özü bir dəyərdi. null-ı biz dəyişənə özümüz də daxil edə bilərik. Həm də undefined özü
+bir tipdir, amma null-ın tipi objectdir.
+
+<10>
+JSdə aşağıdakı şərt statementləri var:
+    > if
+    > else
+    > else if
+    > switch
+
+<11>
+NaN - Not a Number deməkdir. Qlobal obyektin propertysidi. NaN-a heç nə yazmaq olmur. Configure
+oluna bilmir.
+
+<12>
+Global Contextdə this global obyektlərə istinad eliyir. Funksiya kontekstində funksiyanın necə
+çağırıldığından asılı olaraq davranır. Ciddi və ciddi olmayan istifadəsi var. Ciddi istifadədə
+əgər this-ə dəyər verilməyibsə, onun dəyəri undefined götürülür. Amma ciddi olmayan istifadədə
+onun dəyəri global object götürür.
+
+<13>
+not defined - ümumiyyətlə dəyişənin təyin olunmadığını bildirir. Bu əsasən yanlış yerdə var-sız
+dəyişən təyin edəndə olur. undefined isə dəyişənin təyin olunduğunu, lakin onun içinə dəyərin
+mənimsədilmədiyini bildirir.
+
+<14>
+Funksiyanı çağırmaq üçün çağırma sətri funksiyanın olduğu sətrdən aşağıda yerləşməlidi deyə
+qayda yoxdu. Harada istəsəy orda da çağıra biləriy.
+
+<15>
+Javascriptən vacib olan iki paradiqmanı - Functional və Protoypal Inheritance paradiqmalarını
+dəstəkləyir. Bundan başqa imperativ də bunlara aiddir.
+
+<16>
+Funksional proqramlaşdırma proqramlaşdırma məntiqinin riyazi funksiyalara oxşar funksiyalarla ifadə edilən bir paradiqmadır. Funksional proqramlaşdırmada dəyişənlər, objectlər,mənimsətmələr yoxdu. Proqram funksiyaların iç içə və ya arxa-arxaya işlədilməsi ilə icra olunur. Sürətlidir. Dövrlərdən istifadə əvəzinə rekursiyadan istifadə olunur.
+
+<17>
+Klassik miraslılıqda iki tip mücərrədlik var: obyektlər və siniflər. Prototipli miraslılıqda
+isə cəmi bir tip var: obyektlər.
