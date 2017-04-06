@@ -104,6 +104,3 @@ Miras üzərində kompozisiya obyektyönümlü proqramlaşdırmada əsas şeylə
 Bir tərəfli bağlama - burda model yeganə mənbədi. user interfacedən heç bir dəyişiklik eləməy olmur. Dəyişikliklər yalnız model tərəfindən edilir. Burda məlumat sadəcə bir istiqamətli olaraq ötürülür və bu da başa düşülməni asanlaşdırır. Həm də iki tərəflinin əks təsirləri ola bilər. Bu da başa düşülməni çətinləşdirir.
 
 <23>
-
-edited by murad
-edited by adil
