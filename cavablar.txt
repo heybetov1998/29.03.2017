@@ -106,3 +106,4 @@ Bir tərəfli bağlama - burda model yeganə mənbədi. user interfacedən heç 
 <23>
 
 edited by murad
+edited by adil
