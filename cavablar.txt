@@ -1,4 +1,4 @@
-<1>
+﻿<1>
 Prototypal Inheritance-da Objectlər birbaşa olaraq digər objectlərdən miras götürürlər.
 
 <2>
@@ -105,3 +105,4 @@ Bir tərəfli bağlama - burda model yeganə mənbədi. user interfacedən heç 
 
 <23>
 
+edited by murad
